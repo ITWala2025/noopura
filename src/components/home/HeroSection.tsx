@@ -22,7 +22,7 @@ export function HeroSection() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center scale-[1.02]"
+          className="object-cover object-[65%_center] md:object-center md:scale-[1.02]"
         />
         {/* Soothing sage & pearlescent glossy veil (light, airy, never dark) */}
         <div
