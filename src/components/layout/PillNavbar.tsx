@@ -49,7 +49,7 @@ export function PillNavbar() {
             <span className="block font-display text-lg font-semibold tracking-wide text-sage-deep">
               Noopura
             </span>
-            <span className="hidden sm:block text-[10px] uppercase tracking-[0.22em] text-sage-forest/75">
+            <span className="hidden sm:block text-[10px] font-medium uppercase tracking-[0.22em] text-sage-forest">
               Dublin · Est. Parampara
             </span>
           </div>
@@ -67,7 +67,7 @@ export function PillNavbar() {
                     "relative z-10 block rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors duration-200",
                     active
                       ? "text-ivory-silk font-semibold"
-                      : "text-sage-forest/85 hover:text-sage-deep"
+                      : "text-sage-deep/90 hover:text-sage-deep"
                   )}
                 >
                   {active && (

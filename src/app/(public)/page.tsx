@@ -47,7 +47,7 @@ export default function HomePage() {
                 <h3 className="mt-3 font-display text-3xl font-semibold text-sage-deep">
                   {item.name}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-sage-forest/80">
+                <p className="mt-2 text-sm leading-relaxed text-sage-deep/85">
                   {item.essence}
                 </p>
                 <ul className="mt-5 space-y-2">
@@ -104,7 +104,7 @@ export default function HomePage() {
                 <p className="text-sm font-semibold text-sage-deep">
                   {t.author}
                 </p>
-                <p className="text-xs text-sage-forest/75">{t.role}</p>
+                <p className="text-xs font-medium text-sage-forest">{t.role}</p>
               </footer>
             </blockquote>
           ))}

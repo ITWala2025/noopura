@@ -23,8 +23,11 @@ export default function RootLayout({
   const orgJsonLd = getEducationalOrganizationJsonLd();
 
   return (
-    <html lang="en">
-      <body className="font-sans antialiased text-sage-deep bg-sage-mist">
+    <html lang="en" suppressHydrationWarning>
+      <body
+        suppressHydrationWarning
+        className="font-sans antialiased text-sage-deep bg-sage-mist"
+      >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}

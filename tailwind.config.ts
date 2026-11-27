@@ -17,7 +17,7 @@ const config = {
         gold: {
           temple: "#D4AF37",
           bright: "#F4D36E",
-          antique: "#A88424",
+          antique: "#7D5D0E",
           shimmer: "#FCE8A6",
         },
         alta: {
@@ -35,9 +35,9 @@ const config = {
           mist: "#EEF4EE",
           celadon: "#DCE7DD",
           soft: "#C1D5C5",
-          moss: "#6F8F77",
-          forest: "#2C4236",
-          deep: "#1B2A22",
+          moss: "#4E6F56",
+          forest: "#1E3328",
+          deep: "#111E17",
         },
       },
       fontFamily: {

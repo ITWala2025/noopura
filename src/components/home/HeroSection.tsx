@@ -85,7 +85,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.16 }}
-            className="max-w-xl text-base sm:text-lg leading-relaxed text-sage-forest/90"
+            className="max-w-xl text-base sm:text-lg leading-relaxed text-sage-deep/90"
           >
             <strong className="font-semibold text-sage-deep">Noopura</strong>{" "}
             cultivates the living heritage of{" "}
@@ -144,7 +144,7 @@ export function HeroSection() {
               <p className="mt-1 text-sm font-semibold text-sage-deep">
                 {stat.label}
               </p>
-              <p className="text-xs text-sage-forest/75">{stat.detail}</p>
+              <p className="text-xs font-medium text-sage-forest">{stat.detail}</p>
             </div>
           ))}
         </div>
