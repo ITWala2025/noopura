@@ -17,8 +17,8 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-noopura.jpg"
-          alt="Noopura Indian Classical School of Dance — serene classical mudra and flowing sage silk"
+          src="/images/bharatanatyam-hero.jpg"
+          alt="Noopura Indian Classical School of Dance — authentic Bharatanatyam dancer in Araimandi stance"
           fill
           priority
           sizes="100vw"
